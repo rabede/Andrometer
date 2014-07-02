@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroMeter</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="water">Wasser</string>
+    <string name="gas">Gas</string>
+    <string name="power">Strom</string>
+    <string name="save">Speichern</string>
+    <string name="clear">Löschen</string>
+
+</resources>
