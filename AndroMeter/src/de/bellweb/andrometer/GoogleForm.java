@@ -33,10 +33,11 @@ public class GoogleForm extends AsyncTask<String, Void, String> {
 			nameValuePairs.add(new BasicNameValuePair("submit", "Submit"));
 			post.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 			client.execute(post);
+			Log.i("sendGoogle", nameValuePairs.toString());
 		} catch (ClientProtocolException e) {
-			Log.e("sendGoolge", e.toString());
+			Log.e("sendGoogle", e.toString());
 		} catch (IOException e) {
-			Log.e("sendGoolge", e.toString());
+			Log.e("sendGoogle", e.toString());
 
 		}
 		return null;
